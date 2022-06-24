@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric figures</title>
+</head>
+<body>
+    <header>
+        <h1>Geometric figures</h1> 
+        <p>This is the first workshop of the JavaScript practical course</p>
+    </header>
+    <section>
+        <h2>Calculte the area and perimeter of a square</h2>
+        <form action="">
+            <label for="SquareInput">Write the size of the side:</label>
+            <input id="SquareInput" type="number">
+            <button type="button" onclick="calculatePerimeterSquare()">Calculate perimeter</button>
+            <button type="button" onclick="calculateAreaSquare()">Calculate area</button>
+            <label for="">The result is: </label> <output id="ResultSquare"></output>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calculte the area and perimeter of a triangle</h2>
+        <form action="">
+            <label for="TriangleInputA">Write the side A:</label>
+            <input id="TriangleInputA" type="number">
+            <label for="TriangleInputB">Write the side B:</label>
+            <input id="TriangleInputB" type="number">
+            <label for="TriangleInputBase">Write the base:</label>
+            <input id="TriangleInputBase" type="number">
+            <label for="TriangleInputHeight">Write the height:</label>
+            <input id="TriangleInputHeight" type="number">
+            <button type="button" onclick="calculatePerimeter()">Calculate perimeter</button>
+            <button type="button" onclick="calculateArea()">Calculate area</button>
+            <label for="">The result is: </label> <output id="result"></output>
+        </form>
+    </section>
+
+    <script src="./figures.js"></script>
+</body>
+</html>
